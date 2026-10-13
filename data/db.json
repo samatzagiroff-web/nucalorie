@@ -1,0 +1,24 @@
+{
+  "users": {
+    "1001": {
+      "telegramId": "1001",
+      "firstName": "Jasmine",
+      "language": "ru",
+      "age": 28,
+      "sex": "female",
+      "heightCm": 168,
+      "weightKg": 62,
+      "goal": "maintain",
+      "activity": "moderate",
+      "trackers": {
+        "appleHealth": false,
+        "googleFit": false,
+        "strava": false
+      },
+      "log": [],
+      "challengeProgress": {},
+      "points": 0,
+      "createdAt": "2026-10-13T16:51:57.581Z"
+    }
+  }
+}

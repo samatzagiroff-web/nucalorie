@@ -1,0 +1,13 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "rewrites": [
+    { "source": "/webhook", "destination": "/api?route=/webhook" },
+    { "source": "/api/health", "destination": "/api?route=/api/health" },
+    { "source": "/api/me", "destination": "/api?route=/api/me" },
+    { "source": "/api/profile", "destination": "/api?route=/api/profile" },
+    { "source": "/api/log", "destination": "/api?route=/api/log" },
+    { "source": "/api/trackers", "destination": "/api?route=/api/trackers" },
+    { "source": "/api/stars/invoice", "destination": "/api?route=/api/stars/invoice" },
+    { "source": "/api/challenges/:id/join", "destination": "/api?route=/api/challenges/:id/join" }
+  ]
+}
